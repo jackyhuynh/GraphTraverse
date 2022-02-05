@@ -1,10 +1,7 @@
-# TEMPLATE for JUPITER notebook
+# Graph Traverse Using Networkx
 
 ## Introduction
 Navigate to the src file and open jupiter notebook. User can also download the '.py' file and run it locally
- 
-## Documents/Research Paper
-Link your research paper <a href="https://github.com/jackyhuynh/template-git-jupiter-notebook-md/blob/main/documents/resarch-sample.pdf">here</a> if you need
 
 ## Technology
 List of technology
