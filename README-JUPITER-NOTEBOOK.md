@@ -1,11 +1,8 @@
 # TEMPLATE for JUPITER notebook
 
 ## Introduction
- Simply introduce the project that specically built with Jupiter Notebook. 
-I believe the simplier the Readme file, the easier to read.
-- You can also keep this private and organize this GitHub as a private libary for yourself.
-<img src="https://github.com/jackyhuynh/template-git-jupiter-notebook-md/blob/main/images/instruction.JPG">
-
+Navigate to the src file and open jupiter notebook. User can also download the '.py' file and run it locally
+ 
 ## Documents/Research Paper
 Link your research paper <a href="https://github.com/jackyhuynh/template-git-jupiter-notebook-md/blob/main/documents/resarch-sample.pdf">here</a> if you need
 
