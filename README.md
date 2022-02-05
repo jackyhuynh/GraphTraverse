@@ -1,4 +1,4 @@
-# Graph Traverse Using Networkx
+# Graph Traverse Using Networkx (shortest path)
 
 ## Introduction
 Navigate to [truc_graph_traverse.ipynb](truc_graph_traverse.ipynb) to open jupiter notebook. User can also download the '.py' file and run it locally
