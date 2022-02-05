@@ -3,6 +3,8 @@
 ## Introduction
 Navigate to the src file and open jupiter notebook. User can also download the '.py' file and run it locally
 
+<img src='images/gg-graph.png'>
+
 ## Technology
 List of technology
 - Python 
