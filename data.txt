@@ -1,0 +1,10 @@
+Shames,Garron,20
+Shames,Truc,6
+Truc,Garron,14
+Jill,Garron,20
+Garron,Emily,20
+Garron,Ann,20
+Fran,Jill,10
+Ann,Tina,10
+Ann,Bill,10
+Ann,Emily,30
