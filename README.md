@@ -1,74 +1,73 @@
-# Graph Traverse Using Networkx (Shortest Path)
+# Graph Traversal Using NetworkX (Shortest Path)
 
 ## Introduction
-Navigate to [truc_graph_traverse.ipynb](truc_graph_traverse.ipynb) to open jupiter notebook. User can also download the '.py' file and run it locally
+This project demonstrates graph traversal techniques, focusing on finding the shortest path using the NetworkX library in Python. Graph traversal is an essential concept in computer science, enabling the exploration of nodes and edges in various types of graphs, such as social networks, road maps, or web structures.
 
-<img src='images/gg-graph.png'>
+Navigate to the GraphTraverse.ipynb Jupyter notebook to explore the implementation. You can also download and run the corresponding Python script locally for further exploration and modification.
+
+<img src='images/gg-graph.png' alt="Graph Visualization" width="500"/>
+
+## Graph Traversal Techniques
+This project specifically covers the following traversal methods:
+- **Breadth-First Search (BFS):** A level-order traversal that explores all the neighbors of a node before moving to the next level.
+- **Depth-First Search (DFS):** An exploration strategy that goes deep into the graph before backtracking.
+- **Dijkstra’s Algorithm:** A popular algorithm for finding the shortest path from a source node to all other nodes in a weighted graph.
+
+## Use Cases
+
+### 1. **Social Networks**
+Graph traversal algorithms like BFS and DFS can help find the shortest connection between people in a social network. For example, you can use Dijkstra’s Algorithm to find the shortest path between two users based on the number of shared connections or interactions.
+
+### 2. **Navigation Systems**
+Navigation applications often use graph traversal to find the shortest route between two locations on a map. Dijkstra’s Algorithm and A* search are frequently used for finding optimal paths in road networks.
+
+### 3. **Web Crawling**
+Graph traversal is used in web crawlers to explore websites by following links between web pages, identifying important hubs and authorities, and ranking pages based on connectivity.
+
+### 4. **Recommendation Systems**
+By modeling users and items as a graph, traversal can be used to recommend new items to users by exploring the shortest paths or connections between them and other users with similar preferences.
+
+### 5. **Network Routing**
+Graph traversal algorithms are integral to finding efficient routes for data packets in a network, ensuring minimal latency and optimal performance.
 
 ## Technology
-List of technology
-- Python 
-- Object Oriented Design
-- Jupyter Notebook
-- Data Visualization
-- Machine Learning
 
-## Python for Data Science Tools:
-These are packages that are usually used for Data Science:
-- [Python 3 Standard Library](https://docs.python.org/3/index.html)
-- [NumPy Documentation](https://numpy.org/doc/stable/reference/index.html)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Mathplotlib Documentation](https://matplotlib.org/2.0.2/index.html)
+This project utilizes a variety of technologies, including:
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+- **Python:** The core programming language used for implementing graph traversal algorithms.
+- **NetworkX:** A Python package for the creation, manipulation, and study of complex networks and graphs.
+- **Jupyter Notebook:** An interactive environment to visualize and run the graph algorithms step by step.
+- **Matplotlib & Seaborn:** Used for visualizing graph structures and data in the notebook.
+- **Data Structures:** Graphs are represented using adjacency lists and matrices.
+- **Machine Learning (Optional):** Integrating graph traversal in machine learning models, such as node embeddings for link prediction.
 
-### Prerequisites
-What things you need to install the software and how to install them
-- Jupyter Notebook: If you want just test the code, simply go to google and search for jupiter notebook or another Python online IDE. The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. 
-- Anacoda Navigator: Install Anaconda Navigator if you want to develop data-science projects using Python or R. Anaconda Navigator is a desktop graphical user interface included in Anaconda that allows you to launch applications and easily manage conda packages, environments and channels without the need to use command line commands. 
+## How to Run
 
-### Installing
-A step by step series of examples that tell you how to get a development enviroment running
-* [Install Anacoda Navigator](https://docs.anaconda.com/anaconda/navigator/install/#:~:text=Installing%20Navigator%20Navigator%20is%20automatically%20installed%20when%20you,install%20anaconda-navigator.%20To%20start%20Navigator,%20see%20Getting%20Started.) - If you haven't downloaded and installed Anacoda Navigator yet, here's how to get started.
-* [Jupyter Notebook](https://jupyter.org/try) - Click here to go to the online free Jupiter Notebook.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/graph-traverse.git
+   ```
 
-## Running the tests
-Explain how to run the automated tests for this system:
-- There is no download IDE need, all you need is download all the src to your machine and run it.
-- Using Jupiter Notebook
-- Navigate to the file .ipynb
-- hit:
+2. Navigate to the project folder:
+   ```bash
+   cd graph-traverse
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the Jupyter notebook:
+   ```bash
+   jupyter notebook GraphTraverse.ipynb
+   ```
+
+Alternatively, you can run the `.py` script:
+```bash
+python graph_traverse.py
 ```
-Ctrl + Enter
-```
 
-## Deployment
-All the notebook can be used for research and academic basic function for Python. 
+## Conclusion
 
-## Built With
-* [Jupyter Notebook](https://jupyter.org/try) 
-
-## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](). 
-
-## Authors
-
-* **Truc Huynh** - *Initial work* - [TrucDev](https://github.com/jackyhuynh)
-
-## Format
-my README.md format was retrieved from
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-* Any acknowledgments go here
-
-
+This project showcases how graph traversal algorithms can be applied to various real-world problems. From shortest path calculations to recommendation systems, graph-based solutions are integral to solving complex, networked problems efficiently.
