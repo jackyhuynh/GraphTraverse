@@ -1,6 +1,7 @@
 # Default ignored files
 __pycache__/
 venv/
+.idea/
 
 # Python
 __pycache__/
